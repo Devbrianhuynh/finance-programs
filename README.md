@@ -1,2 +1,2 @@
 # finance_python
-Trading advisor.
+Finance and real estate advisor.
