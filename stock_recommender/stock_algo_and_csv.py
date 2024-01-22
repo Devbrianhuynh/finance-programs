@@ -7,12 +7,13 @@ def ticker_list():
     with open(r'trading\stock_recommender\nasdaq_screener_1704944193582.csv') as tickers:
         ticker_file = csv.DictReader(tickers)
 
-        count = 0
+      # Commented code is used for testing purposes only (we can iterate though a couple dozen stocks instead of going through the entire CSV file  
+      # count = 0
         for ticker in ticker_file:
-            if count > 100:
-                break
+            # if count > 100:
+                # break
             ticker_list.append(ticker['Symbol'])
-            count += 1
+          # count += 1
     
     return ticker_list
 
