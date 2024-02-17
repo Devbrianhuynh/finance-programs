@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFBEA;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container-logo {
+    display: flex;
+    align-items: center;
+}
+
+#container-logo p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 7px;
+}
+
+#navbar #container #container-logo a img {
+    width: 30px;
+    margin-left: 20px;
+
+}
+
+#navbar #container ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 1;
+    padding: 16.8px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#landing-page {
+    background-color: #FFFBEA;
+    padding: 100px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+#landing-page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1;
+    font-size: 45px;
+    text-align: center;
+}
+
+#landing-page #landing-footer {
+    font-family: verdana;
+    font-weight: 1;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 90px;
+}
+
+#title-div-1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+} 
+
+#landing-page  #title-div-1  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    font-weight: 1;
+    font-size: 15px;
+}
+
+#main-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#main-buttons #coex-search {
+    margin: 5px;
+    background: #5271FF;
+    color: white;
+    font-family: verdana;
+    height: 45px;
+    padding: 0 25px;
+    border: none;
+}
+
+#main-buttons #coex-search:hover {
+    background-color: black;
+}
+
+#main-buttons #why-coex {
+    margin: 5px;
+    background: white;
+    color: #5271FF;
+    font-family: verdana;
+    height: 45px;
+    padding: 0 20px;
+    border: 3px solid #5271FF;
+}
+
+#main-buttons #why-coex:hover {
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+}
+
+#product-discloser {
+    padding: 30px;
+    background-color: #5271FF;
+    color: white;
+    font-size: 2vw;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+#product {
+    background-color: #FFFBEA;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#product p {
+    font-size: 2vw;
+    text-align: center;
+}
+
+#product p span {
+    color: #5271FF;
+    font-weight: bold;
+}
+
+#product table {
+    margin-top: 6vw;
+    border: 1px solid black;
+}
+
+#product table thead tr th {
+    font-family: verdana;
+    font-size: 1vw;
+}
+
+#options-foreword {
+    background-image: url("https://www.thedataschool.com.au/wp-content/uploads/2021/07/Stock-market-graph.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+
+@media (min-width: 900px) {
+    #landing-page {
+        padding: 80px 300px;
+    }
+
+    #options-foreword {
+        padding: 300px;
+    }
+}
